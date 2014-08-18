@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <script src='d3.js' charset="utf-8"></script>
+  <script src='promise-1.0.0.js' charset="utf-8"></script>
+  <script src='jquery-2.1.0.js' charset="utf-8"></script>
+  <link rel='stylesheet' href='qsortVisualization.css'>
+  <meta content='width=device-width, initial-scale=0.9, maximum-scale=2.5, user-scalable=1' name='viewport' />
+</head>
+<body>
+  <svg class='chart1'></svg>
+  <svg class='chart2'></svg>
+  <svg class='chart3'></svg>
+  <svg class='chart4'></svg>
+  <div class='legend'>
+    <div>Upon each call to partition ():</div>
+    <span class='swatch-1'></span>
+    <span class='swatch-label'>partition size</span>
+    <span class='swatch-2'></span>
+    <span class='swatch-label'>stack size</span>
+  </div>
+  <div class='placard'>
+    <div>1) Worst-case partioning, worst-case stack space</div>
+    <div>2) Worst-case partioning, O(log(n)) stack space</div>
+    <div>3) Random partioning, O(n) stack space</div>
+    <div>4) Random partioning, O(log(n)) stack space</div>
+  </div>
+  <script src='Benchmarking.js'></script>
+  <script src='stackSpaceVisualization.js'></script>
+</body>
+</html>

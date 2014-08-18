@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+svg {
+    margin: auto;
+    display: block;
+    margin-bottom: -76px;
+}
+svg g rect:first-child {
+    fill: rgb(82, 146, 202);
+}
+svg g rect:nth-child(2) {
+    fill: rgb(255, 109, 109);
+}
+.legend {
+    margin-top: 118px;
+    font-size: 10px;
+    color: rgb(15, 15, 15);
+}
+.placard {
+    margin-top: 20px;
+    font-size: 10px;
+    color: rgb(15, 15, 15);
+}
+.placard div {
+    margin-bottom: 3px;
+}
+body > svg:first-child {
+    margin-top: -39px;
+}
+
+.swatch-1, .swatch-2 {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    height: 2px;
+    width: 23px;
+    position: relative;
+    top: -2px;
+}
+.swatch-1 {
+    background: rgb(255, 109, 109);
+}
+.swatch-2 {
+    background: rgb(82, 146, 202);
+}
