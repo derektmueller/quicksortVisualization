@@ -1,3 +1,3 @@
 
-###www.derekmueller.info/quicksortVisualization
+https://derekmueller.info/views/quicksortVisualization.html
 
